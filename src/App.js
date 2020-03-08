@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import { Router } from 'react-router-dom';
 import './config/ReacttotronConfig';
 import Routes from './routes';
-import { history } from './services/history';
+import history from './services/history';
 import { store } from './store';
 import GlobalStyle from './styles/global';
 
